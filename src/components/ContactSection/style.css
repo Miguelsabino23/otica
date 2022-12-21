@@ -1,0 +1,59 @@
+.secao-contato {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    padding: 100px 20px;
+    background-color: #05031b;
+}
+
+.contatos-redes {
+    display: flex;
+    justify-content: center;
+}
+
+.contatos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+    padding: 15px;
+}
+
+.contatos figure {
+    display: flex;
+    flex-direction: row;
+    margin: 5px 0;
+}
+
+.contatos figure img {
+    width: 18px;
+}
+
+.contatos figure figcaption {
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+    .secao-contato {
+        padding: 60px 20px;
+    }
+}
+
+@media (max-width: 550px) {
+    .secao-contato {
+        padding: 60px 10px;
+    }
+
+    .contatos-redes {
+        flex-direction: column;
+    }
+
+    .contatos {
+        align-items: center;
+    }
+
+    .contatos figure {
+        width: 150px;
+    }
+}
