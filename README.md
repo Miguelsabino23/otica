@@ -11,7 +11,7 @@ Esse projeto foi proposto pela plataforma da devmedia.<br/>
 <br>
 
 <p align="center">
-  <img alt="projeto Habits" src="./public/.github/óticas.png" width="100%">
+  <img alt="projeto ótica" src="./public/.github/óticas.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
